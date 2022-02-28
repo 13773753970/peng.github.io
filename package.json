@@ -1,0 +1,27 @@
+{
+  "name": "peng.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/13773753970/peng.github.io.git"
+  },
+  "author": "pengZhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/13773753970/peng.github.io/issues"
+  },
+  "homepage": "https://github.com/13773753970/peng.github.io#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
