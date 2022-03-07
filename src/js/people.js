@@ -2,21 +2,21 @@ import * as R from 'ramda'
 import eventEmitter from './eventEmitter'
 
 let professorsData = [
-    {image: require('../images/professor-1.jpeg'), title: "What Bayesian Optimisation can teach us about baking better cookies and more"},
-    {image: require('../images/professor-2.jpeg'), title: "Quicker MRIs in the future? Machine learning can help"},
-    {image: require('../images/professor-3.jpeg'), title: "The Price of Diversity in Assignment Problems"},
-    {image: require('../images/professor-1.jpeg'), title: "What Bayesian Optimisation can teach us about baking better cookies and more"},
-    {image: require('../images/professor-2.jpeg'), title: "Quicker MRIs in the future? Machine learning can help"},
-    {image: require('../images/professor-3.jpeg'), title: "The Price of Diversity in Assignment Problems"},
+    {image: require('../images/professor-1.jpg'), title: "What Bayesian Optimisation can teach us about baking better cookies and more"},
+    {image: require('../images/professor-1.jpg'), title: "Quicker MRIs in the future? Machine learning can help"},
+    {image: require('../images/professor-1.jpg'), title: "The Price of Diversity in Assignment Problems"},
+    {image: require('../images/professor-1.jpg'), title: "What Bayesian Optimisation can teach us about baking better cookies and more"},
+    {image: require('../images/professor-1.jpg'), title: "Quicker MRIs in the future? Machine learning can help"},
+    {image: require('../images/professor-1.jpg'), title: "The Price of Diversity in Assignment Problems"},
 ]
 
 let studentsData = [
-    {image: require('../images/professor-1.jpeg'), title: "What Bayesian Optimisation can teach us about baking better cookies and more"},
-    {image: require('../images/professor-2.jpeg'), title: "Quicker MRIs in the future? Machine learning can help"},
-    {image: require('../images/professor-3.jpeg'), title: "The Price of Diversity in Assignment Problems"},
-    {image: require('../images/professor-1.jpeg'), title: "What Bayesian Optimisation can teach us about baking better cookies and more"},
-    {image: require('../images/professor-2.jpeg'), title: "Quicker MRIs in the future? Machine learning can help"},
-    {image: require('../images/professor-3.jpeg'), title: "The Price of Diversity in Assignment Problems"},
+    {image: require('../images/professor-1.jpg'), title: "What Bayesian Optimisation can teach us about baking better cookies and more"},
+    {image: require('../images/professor-1.jpg'), title: "Quicker MRIs in the future? Machine learning can help"},
+    {image: require('../images/professor-1.jpg'), title: "The Price of Diversity in Assignment Problems"},
+    {image: require('../images/professor-1.jpg'), title: "What Bayesian Optimisation can teach us about baking better cookies and more"},
+    {image: require('../images/professor-1.jpg'), title: "Quicker MRIs in the future? Machine learning can help"},
+    {image: require('../images/professor-1.jpg'), title: "The Price of Diversity in Assignment Problems"},
 ]
 
 function getProfessorsHtml(title, rowItems, professorsData) {
