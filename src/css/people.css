@@ -1,0 +1,114 @@
+.people-container {
+}
+
+.people-container .spacer {
+    width: 100%;
+    height: 30px;
+}
+
+.people-container .big-spacer {
+    width: 100%;
+    height: 50px;
+}
+
+.people-container .row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.people-container h2 {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0 0 25px 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #333;
+    text-align: center;
+    font-family: "Hind", sans-serif;
+}
+
+.people-container .professor-container {
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#professors-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#students-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.professor-container .box {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding: 0;
+    padding-bottom: 62%;
+    border-radius: 3px;
+    border: 1px solid #ececec;
+    transition: 0.3s ease;
+    overflow: hidden;
+}
+
+.professor-container .fill-content {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.professor-container p {
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #ffffff;
+    font-family: "Roboto Light", sans-serif;
+    opacity: 0;
+    transition: opacity 650ms ease-out;
+}
+
+.professor-container .fill-content:hover{
+    cursor: pointer;
+}
+
+.professor-container .fill-content:hover p {
+    opacity: 1;
+}
+
+.people-container .button-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.people-container .button-wrapper a {
+    background-color: #ffffff;
+    color: rgba(48,48,48,1);
+    border-width: 1px;
+    border-color: rgba(151,151,151,1);
+    text-transform: none;
+    transition: all .3s linear;
+    border-style: solid;
+    border-radius: 3px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    padding: 20px 51px;
+    line-height: 16px;
+    font-family: "Roboto Medium", sans-serif;
+}
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DDD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+  <body>
+    <!-- <div id="global-background" class="global-background"></div> -->
+    <%= require('html-loader!./src/html/header.html').default %>
+    <%= require('html-loader!./src/html/description.html').default %>
+    <%= require('html-loader!./src/html/projects.html').default %>
+    <%= require('html-loader!./src/html/people.html').default %>
+    <%= require('html-loader!./src/html/contact.html').default %>
+  </body>
+  <link href="http://fonts.cdnfonts.com/css/hind" rel="stylesheet">
+  <link href="http://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+  <script src="particles.min.js"></script>
+  <script>
+    particlesJS.load('description-background', 'particlesjs-config.json');
+  </script>
+  <script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+</html>

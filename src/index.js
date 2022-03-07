@@ -1,10 +1,10 @@
-function component() {
-    const element = document.createElement('div');
-  
-    // Lodash, currently included via a script, is required for this line to work
-    element.innerHTML = "Hello World";
-  
-    return element;
-  }
-  
-  document.body.appendChild(component());
+import './js/monitorScrollEnd'
+import './js/monitorResizeEnd'
+import './js/monitorWindowWidth'
+import './css/index.css'
+import './js/projects'
+import './js/header'
+import './js/people'
+
+
+
