@@ -1,5 +1,5 @@
-import './js/monitorScrollEnd'
-import './js/monitorResizeEnd'
+import './js/monitorScroll'
+import './js/monitorResize'
 import './js/monitorWindowWidth'
 import './css/index.css'
 import './js/projects'

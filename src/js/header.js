@@ -1,17 +1,22 @@
-import debounceMonitor from './debounceMonitor'
+import throttleListeners from 'throttle-listeners'
+import { debounce } from 'throttle-debounce'
 import eventEmitter from './eventEmitter'
 
-debounceMonitor(
-    [{getValue: () => window.scrollY, listener: (callback) => window.addEventListener('scroll', () => callback(window.scrollY))}],
+throttleListeners(
+    [{
+        getDefaultValue: () => window.scrollY, 
+        addListener: (callback) => eventEmitter.on('scroll', callback),
+        removeListener: (callback) => eventEmitter.removeListener('scroll', callback)
+    }],
     (scrollY) => scrollY >= 0 && scrollY < 80,
-    1000,
     (lessThan) => {
         if (lessThan) {
             setTimeout(() => document.getElementById("main-menu").classList.remove("is-sticky"), 0)
         } else {
             setTimeout(() => document.getElementById("main-menu").classList.add("is-sticky"), 0)
         }
-    }
+    },
+    callback => debounce(200, false, callback)
 )
 
 let navItems = {
@@ -30,10 +35,10 @@ let containers = {
 }
 
 // 自动检测当前在哪块区域
-let regionMonitor = debounceMonitor(
+throttleListeners(
     [
-        {getValue: () => window.scrollY, listener: (callback) => eventEmitter.on('scrollEnd', callback)},
-        {getValue: () => undefined, listener: (callback) => eventEmitter.on('resizeEnd', callback)},
+        {getDefaultValue: () => window.scrollY, addListener: (callback) => eventEmitter.on('scroll', callback), removeListener: (callback) => eventEmitter.removeListener('scroll', callback)},
+        {getDefaultValue: () => undefined, addListener: (callback) => eventEmitter.on('resize', callback), removeListener: (callback) => eventEmitter.removeListener('resize', callback)},
     ],
     () => {
         let descriptionRect = containers.description.getBoundingClientRect()
@@ -53,7 +58,6 @@ let regionMonitor = debounceMonitor(
             return 'contact'
         }
     },
-    0,
     (name) => {
         setTimeout(() => {
             for (let _name in navItems) {
@@ -68,12 +72,13 @@ let regionMonitor = debounceMonitor(
                 }
             }
         }, 0)
-    }
+    },
+    callback => debounce(200, false, callback)
 )
 
 // 菜单栏点击
 let headerHeight = 110
-eventEmitter.on('widthChange', state => headerHeight = state === 'largeWidth' ? 110 : 80)
+eventEmitter.on('widthChange', state => headerHeight = state === 'smallWidth' ? 80 : 110)
 let mobileMenu = document.getElementById('mobile-menu')
 let headerButton = document.getElementById('menu-button')
 for (let itemName in navItems) {
@@ -81,7 +86,6 @@ for (let itemName in navItems) {
         item.addEventListener('click', e => {
             mobileMenu.classList.remove('active')
             headerButton.classList.remove('active')
-            regionMonitor.changeState(itemName)
             scrollTo({
                 top: containers[itemName].offsetTop - headerHeight - 10,
                 behavior: 'smooth'
