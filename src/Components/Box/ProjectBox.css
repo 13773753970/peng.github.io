@@ -1,0 +1,43 @@
+.project-container {
+    flex: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.project-container .box {
+    background-color: #fff;
+    padding: 30px 15px;
+    text-align: center;
+    box-shadow: 2px 2px 10px #888888;
+    transition: all 1.2s;
+    min-height: 415px;
+}
+
+.project-container .box:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #ec224f;
+    transform: scale(0.97);
+}
+
+.project-container svg {
+    width: 45px;
+    height: 45px;
+    fill: #F44336;
+}
+
+.project-container h3 {
+    margin: 20px 0 10px 0;
+    color: #333;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: "Hind", sans-serif;
+}
+
+.project-container p {
+    color: #504b47;
+    font-weight: 300;
+    line-height: 27px;
+    margin: 0;
+    font-family: "Roboto Light", sans-serif;
+}

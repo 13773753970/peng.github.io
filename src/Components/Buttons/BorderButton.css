@@ -1,0 +1,16 @@
+.border-button {
+    background-color: #ffffff;
+    color: rgba(48,48,48,1);
+    border-width: 1px;
+    border-color: rgba(151,151,151,1);
+    text-transform: none;
+    transition: all .3s linear;
+    border-style: solid;
+    border-radius: 3px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    padding: 20px 51px;
+    line-height: 16px;
+    font-family: "Roboto Medium", sans-serif;
+}

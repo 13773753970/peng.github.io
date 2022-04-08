@@ -1,0 +1,46 @@
+.person-container {
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.person-container .box {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding: 0;
+    padding-bottom: 62%;
+    border-radius: 3px;
+    border: 1px solid #ececec;
+    transition: 0.3s ease;
+    overflow: hidden;
+}
+
+.person-container .fill-content {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.person-container p {
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0;
+    color: #ffffff;
+    font-family: "Roboto Light", sans-serif;
+    opacity: 0;
+    transition: opacity 650ms ease-out;
+}
+
+.person-container .fill-content:hover{
+    cursor: pointer;
+}
+
+.person-container .fill-content:hover p {
+    opacity: 1;
+}

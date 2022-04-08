@@ -1,0 +1,195 @@
+.main-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transition: 0.3s ease;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.main-menu.is-sticky {
+    box-shadow: 0 0 10px rgb(0 0 0 / 13%);
+}
+
+.main-menu .navbar {
+    justify-content: space-between;
+    padding: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    height: 110px;
+}
+
+.main-menu .navbar-brand {
+    display: block;
+    color: #ec224f;
+    font-family: "Hind", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    /* padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 16px; */
+    white-space: nowrap;
+}
+
+.main-menu .navbar-collapse {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-menu .navbar-nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    flex-direction: row;
+}
+
+.main-menu .navbar .navbar-collapse ul li {
+    position: relative;
+}
+
+.main-menu .navbar .navbar-collapse ul li button {
+    color: inherit;
+    font-weight: 500;
+    font-family: "Hind", sans-serif;
+    text-transform: uppercase;
+    display: block;
+    padding: 8px 12px;
+    transition: all 0.25s linear;
+}
+
+.main-menu .navbar .navbar-collapse ul li.active button {
+    color: #ec224f !important;
+}
+
+.menu-button {
+    width: 60px;
+    height: 60px;
+    display: none;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-button circle {
+    fill: #fff3;
+    opacity: 0;
+}
+
+.menu-button path {
+    fill: none;
+    stroke: #333;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    --length: 24;
+    --offset: -38;
+    stroke-dasharray: var(--length) var(--total-length);
+    stroke-dashoffset: var(--offset);
+    transition: all .25s cubic-bezier(.645, .045, .355, 1);
+}
+
+.menu-button .line--1, .menu-button .line--3 {
+    --total-length: 126.64183044433594;
+}
+
+.menu-button.active .line--1, .menu-button.active .line--3 {
+    --offset: -94.1149185097;
+    --length: 22.627416998;
+}
+
+.menu-button .line--2 {
+    --total-length: 70;
+}
+
+.menu-button.active .line--2 {
+    --offset: -50;
+    --length: 0;
+}
+
+.mobile-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: all 0.25s ease-out;
+    display: none;
+}
+
+.mobile-menu.active {
+    max-height: 205px;  /* should be equal to mobile menu height*/
+    opacity: 1;
+    transition: all 0.25s ease-in;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 13%);
+}
+
+.mobile-menu li {
+    margin-bottom: 0px;
+    position: relative;
+    padding: 0px 0px 0px 20px;
+    border-bottom: 1px solid transparent;
+    border-bottom-color: #efefef;
+}
+
+.mobile-menu li button {
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #232323;
+    font-family: "Hind", sans-serif;
+    padding-right: 5px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.25s linear;
+}
+
+.mobile-menu li.active button {
+    color: #ec224f;
+}
+
+@media (max-width: 1200px) {
+    .main-menu .navbar .navbar-collapse ul li button {
+        padding: 8px 8px;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-menu .navbar-nav {
+        display: none;
+    }
+    .menu-button {
+        display: block;
+    }
+    .mobile-menu {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-menu .navbar-brand {
+        font-size: 30px;
+    }
+    .main-menu .navbar {
+        height: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-menu .navbar-brand {
+        font-size: 20px;
+    }
+}
