@@ -4,6 +4,7 @@ import React, { useEffect } from 'react'
 import { Routes, Route } from "react-router-dom";
 import HomePage from './Pages/Home'
 import ProjectPage from './Pages/Project'
+import ProfilePage from './Pages/Profile'
 import {eventEmitter, getWidthScope, WidthScope} from './helper'
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Routes>
             <Route path="/" element={<HomePage/>}/>
             <Route path='/projects/:projectLink' element={<ProjectPage/>}/>
+            <Route path="/people/:id" element={<ProfilePage/>}/>
         </Routes>
     )
 }

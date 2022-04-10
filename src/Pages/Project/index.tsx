@@ -3,8 +3,9 @@ import projects from '../../Data/projects'
 import Description from '../../Components/Description'
 import Header from '../../Components/Header'
 import PaperBox from '../../Components/Box/PaperBox'
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import ContactUs from '../../Components/ContactUs'
+import Page404 from '../404'
 
 type Props = {
 
@@ -16,8 +17,9 @@ function ProjectPage(props: Props) {
     const descriptionRef = useRef<HTMLDivElement | null>(null)
     const studiesRef = useRef<HTMLDivElement | null>(null)
     const contactUsRef = useRef<HTMLDivElement | null>(null)
+    useEffect(() => window.scrollTo(0, 0), [])
     if (project === undefined) {
-        return <div>404</div>
+        return <Page404/>
     }
     return (
         <>

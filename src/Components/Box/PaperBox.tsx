@@ -19,7 +19,18 @@ function PaperBox(props: Props) {
                 <span className="publish-date">{date}</span>
             </div>
             <ul className='line'>
-                {authors.map(x => (
+                {authors.slice(0, 3).map(x => (
+                    <li key={x.name} className='author-container'>
+                        <img alt={x.name} className='author-portrait' src={x.portrait === undefined ? require('../../Images/profile_default.jpeg') : x.portrait}/>
+                        <span className='author-name'>{x.name}</span>
+                    </li>
+                ))}
+                {authors.length > 4 && (
+                    <li className='author-container'>
+                        <span>[...]</span>
+                    </li>
+                )}
+                {authors.slice(authors.length - 1).map(x => (
                     <li key={x.name} className='author-container'>
                         <img alt={x.name} className='author-portrait' src={x.portrait === undefined ? require('../../Images/profile_default.jpeg') : x.portrait}/>
                         <span className='author-name'>{x.name}</span>

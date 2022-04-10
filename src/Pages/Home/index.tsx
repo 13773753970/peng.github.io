@@ -2,7 +2,7 @@ import Header from '../../Components/Header'
 import Description from '../../Components/Description'
 import Projects from './Projects'
 import Professors from './Professors'
-import Students from './Students'
+// import Students from './Students'
 import ContactUs from '../../Components/ContactUs'
 import { useRef } from 'react'
 
@@ -14,15 +14,15 @@ function HomePage(props: Props) {
     const descriptionRef = useRef<HTMLDivElement | null>(null)
     const projectsRef = useRef<HTMLDivElement | null>(null)
     const professorsRef = useRef<HTMLDivElement | null>(null)
-    const studentsRef = useRef<HTMLDivElement | null>(null)
+    // const studentsRef = useRef<HTMLDivElement | null>(null)
     const contactUsRef = useRef<HTMLDivElement | null>(null)
     return (
         <>
             <Header regions={[
                 {title: 'About us', domRef: descriptionRef},
                 {title: 'Projects', domRef: projectsRef},
-                {title: 'Professors', domRef: professorsRef},
-                {title: 'Students', domRef: studentsRef},
+                {title: 'Our team', domRef: professorsRef},
+                // {title: 'Students', domRef: studentsRef},
                 {title: 'contact', domRef: contactUsRef}
             ]}/>
             <Description forwardRef={descriptionRef}
@@ -36,7 +36,7 @@ function HomePage(props: Props) {
             />
             <Projects forwardRef={projectsRef}/>
             <Professors forwardRef={professorsRef}/>
-            <Students forwardRef={studentsRef}/>
+            {/* <Students forwardRef={studentsRef}/> */}
             <ContactUs forwardRef={contactUsRef}/>
         </>
     )

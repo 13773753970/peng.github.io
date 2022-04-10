@@ -3,7 +3,9 @@ import * as R from 'ramda'
 import PersonBox from '../../Components/Box/PersonBox'
 import monitorWindowWidth from '../../Hocs/monitorWindowWidth'
 import {WidthScope} from '../../helper'
-import BorderButton from '../../Components/Buttons/BorderButton'
+// import BorderButton from '../../Components/Buttons/BorderButton'
+import people, {Title} from '../../Data/people'
+import {useNavigate} from 'react-router-dom'
 
 type Props = {
     widthScope: WidthScope
@@ -12,30 +14,24 @@ type Props = {
 
 function Professors(props: Props) {
     const rowItems = getRowItems(props.widthScope)
-    const professorsData = R.splitEvery(rowItems, [
-        {image: require('../../Images/arif.jpg'), title: "What Bayesian Optimisation can teach us about baking better cookies and more"},
-        {image: require('../../Images/arif.jpg'), title: "Quicker MRIs in the future? Machine learning can help"},
-        {image: require('../../Images/arif.jpg'), title: "The Price of Diversity in Assignment Problems"},
-        {image: require('../../Images/arif.jpg'), title: "What Bayesian Optimisation can teach us about baking better cookies and more"},
-        {image: require('../../Images/arif.jpg'), title: "Quicker MRIs in the future? Machine learning can help"},
-        {image: require('../../Images/arif.jpg'), title: "The Price of Diversity in Assignment Problems"},
-    ])
+    const professorsData = R.splitEvery(rowItems, people.filter(x => x.title === Title.Professor))
+    const navigate = useNavigate()
     return (
         <div ref={ref => {
             if (props.forwardRef !== undefined) {
                 props.forwardRef.current = ref
             }
         }} className='container container-padding' id="professors-container">
-            <h2>Professors</h2>
+            <h2>Our team</h2>
             {professorsData.map((row, index) => (
                 <React.Fragment key={index.toString()}>
                     <div className='row row-expand-10'>
-                        {row.map(professor => <PersonBox key={professor.title} {...professor}/>)}
+                        {row.map(professor => <PersonBox key={professor.id} image={professor.image} onClick={() => navigate(`/people/${professor.id}`)}/>)}
                     </div>
                     {index !== professorsData.length - 1 && <div className="spacer"></div>}
                 </React.Fragment>
             ))}
-            <div className='center-wrapper' style={{marginTop: 20}}><BorderButton text="View more"/></div>
+            {/* <div className='center-wrapper' style={{marginTop: 20}}><BorderButton text="View more"/></div> */}
         </div>
     )
 }
@@ -45,7 +41,7 @@ function getRowItems(widthScope: WidthScope) {
         case WidthScope.LargeWidth:
             return 3
         case WidthScope.MediumWidth:
-            return 2
+            return 1
         case WidthScope.SmallWidth:
             return 1
     }

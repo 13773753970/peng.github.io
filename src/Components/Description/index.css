@@ -76,6 +76,7 @@
 @media (max-width: 576px) {
     .description h2 {
         font-size: 25px;
+        line-height: 35px;
     }
     .description .container {
         padding-top: 20px;

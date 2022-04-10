@@ -15,9 +15,11 @@ function Header(props: Props) {
     const [currentRegion, setCurrentRegion] = useState(getCurrentRegion(props.regions, window.innerHeight))
     const headerHeightRef = useRef(getWidthScope(window.innerWidth) === WidthScope.SmallWidth ? 80 : 110)
     const [mobileHeaderActive, setMobileHeaderActive] = useState(false)
+    const hideBigMenu = props.regions.length > 5 // 仅显示移动端menu
     useEffect(() => {
         // 组建挂载好了更新region
         setCurrentRegion(getCurrentRegion(props.regions, window.innerHeight))
+        setSticky(!(window.scrollY >= 0 && window.scrollY < 80))
         //headerHeight 与css里面同步
         function headerHeightListener(widthScope: WidthScope) {
             headerHeightRef.current = widthScope === WidthScope.SmallWidth ? 80 : 110
@@ -63,16 +65,17 @@ function Header(props: Props) {
             <div className="container">
                 <nav className="navbar">
                     <a className="navbar-brand" href="/">
-                        Digital Transformation Lab
+                        <img src={require('../../Images/logo.png')} alt="Digital Transformation Lab" />
+                        {/* Digital Transformation Lab */}
                     </a>
                     <div className="navbar-collapse">
-                        <svg onClick={() => setMobileHeaderActive(!mobileHeaderActive)} id="menu-button" className={`menu-button ${mobileHeaderActive ? 'active' : ''}`} viewBox="0 0 100 100">
+                        <svg style={hideBigMenu ? {display: 'block'} : {}} onClick={() => setMobileHeaderActive(!mobileHeaderActive)} id="menu-button" className={`menu-button ${mobileHeaderActive ? 'active' : ''}`} viewBox="0 0 100 100">
                             <circle cx="50" cy="50" r="30" />
                             <path className="line--1" d="M0 40h62c13 0 6 28-4 18L35 35" />
                             <path className="line--2" d="M0 50h70" />
                             <path className="line--3" d="M0 60h62c13 0 6-28-4-18L35 65" />
                         </svg>
-                        <ul className="navbar-nav">
+                        <ul style={hideBigMenu ? {display: 'none'} : {}} className="navbar-nav">
                             {props.regions.map(x => (
                                 <li className={`${currentRegion === x.title ? 'active' : ''} nav-item`} key={x.title}>
                                     <button onClick={() => {
@@ -89,7 +92,7 @@ function Header(props: Props) {
                     </div>
                 </nav>
             </div>
-            <ul className={`mobile-menu ${mobileHeaderActive ? 'active' : ''}`} id="mobile-menu">
+            <ul style={Object.assign(hideBigMenu ? {display: 'block'} : {}, {maxHeight: mobileHeaderActive ? 41 * props.regions.length : 0})} className={`mobile-menu ${mobileHeaderActive ? 'active' : ''}`} id="mobile-menu">
                 {props.regions.map(x => (
                     <li onClick={() => {
                         setMobileHeaderActive(false)
@@ -99,7 +102,7 @@ function Header(props: Props) {
                                 behavior: 'smooth'
                             })
                         }
-                    }} className={`${currentRegion === x.title ? 'active' : ''}`} key={x.title}>
+                    }} className={`container ${currentRegion === x.title ? 'active' : ''}`} key={x.title}>
                         <button >{x.title}</button>
                     </li>
                 ))}
