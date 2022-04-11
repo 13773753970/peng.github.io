@@ -64,12 +64,8 @@ function Arif_Ali_Khan(props: Props) {
                             <div className="col-6">
                                 <h3>Email: arif.khan@oulu.fi</h3>
                                 <h3>Mobile: +358403291085</h3>
-                                <h3>D/O/Birth: 12th March 1987</h3>
-                                
                             </div>
                             <div className="col-6">
-                                <h3>Nationality: Pakistani</h3>
-                                <h3>M.Status: Married</h3>
                                 <h3>Address: Faculty of Information Technology and Electrical Engineering, University of Oulu, Pentti Kaiteran katu 1, 90570 Oulu, Finland</h3>
                             </div>
                         </div>
