@@ -20,4 +20,10 @@ function ProjectBox(props: Props) {
     )
 }
 
+export function BlankProjectBox() {
+    return (
+        <div className='project-container'></div>
+    )
+}
+
 export default ProjectBox

@@ -2,7 +2,7 @@ import Header from '../../Components/Header'
 import Description from '../../Components/Description'
 import Projects from './Projects'
 import Professors from './Professors'
-// import Students from './Students'
+import PostdoctoralResearchers from './Postdoctors'
 import ContactUs from '../../Components/ContactUs'
 import { useRef } from 'react'
 
@@ -14,7 +14,7 @@ function HomePage(props: Props) {
     const descriptionRef = useRef<HTMLDivElement | null>(null)
     const projectsRef = useRef<HTMLDivElement | null>(null)
     const professorsRef = useRef<HTMLDivElement | null>(null)
-    // const studentsRef = useRef<HTMLDivElement | null>(null)
+    const postdoctorsRef = useRef<HTMLDivElement | null>(null)
     const contactUsRef = useRef<HTMLDivElement | null>(null)
     return (
         <>
@@ -22,7 +22,7 @@ function HomePage(props: Props) {
                 {title: 'About us', domRef: descriptionRef},
                 {title: 'Projects', domRef: projectsRef},
                 {title: 'Our team', domRef: professorsRef},
-                // {title: 'Students', domRef: studentsRef},
+                {title: 'Postdoctors', domRef: postdoctorsRef},
                 {title: 'contact', domRef: contactUsRef}
             ]}/>
             <Description forwardRef={descriptionRef}
@@ -36,7 +36,7 @@ function HomePage(props: Props) {
             />
             <Projects forwardRef={projectsRef}/>
             <Professors forwardRef={professorsRef}/>
-            {/* <Students forwardRef={studentsRef}/> */}
+            <PostdoctoralResearchers forwardRef={postdoctorsRef}/>
             <ContactUs forwardRef={contactUsRef}/>
         </>
     )

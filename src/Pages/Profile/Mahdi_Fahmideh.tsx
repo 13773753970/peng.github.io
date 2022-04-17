@@ -21,25 +21,25 @@ function Mahdi_Fahmideh(props: Props) {
                 <div ref={ref => introductionRef.current = ref} className="row section">
                     <div className="col-3">
                         {/* photo */}
-                        <img className="profile-photo" src={require('../../Images/default-profile.webp')} alt="Mahdi Fahmideh"/>
+                        <img className="profile-photo" src={require('../../Images/Mahdi-Fahmideh-profile.jpeg')} alt="Mahdi Fahmideh"/>
                     </div>
                     <div className="col-9">
                         <div className="name-wrapper">
                             {/* Name and Title */}
                             <h1>Mahdi Fahmideh</h1>
-                            <span className='logocolor'>Assistant Professor</span>
+                            <span className='logocolor'>Senior Lecturer (Cyber Security)</span>
                         </div>
                         {/* brief introduction */}
                         <p>
-                            
+                        Section	School of Business, University of Southern Queensland, Australia Location	Springfield Campus
                         </p>
                         {/* Information */}
                         <div className="row">
                             <div className="col-6">
-                                
+                                <h3>Phone: +61 7 3470 4349</h3>
                             </div>
                             <div className="col-6">
-
+                                <h3>Email: Mahdi.Fahmideh@usq.edu.au</h3>
                             </div>
                         </div>
                     </div>

@@ -12,9 +12,9 @@ type Props = {
     forwardRef?: React.MutableRefObject<HTMLDivElement | null>
 }
 
-function Professors(props: Props) {
+function Postdoctors(props: Props) {
     const rowItems = getRowItems(props.widthScope)
-    const professorsData = R.splitEvery(rowItems, people.filter(x => x.title === Title.Professor))
+    const professorsData = R.splitEvery(rowItems, people.filter(x => x.title === Title.Postdoctor))
     const navigate = useNavigate()
     return (
         <div ref={ref => {
@@ -22,7 +22,7 @@ function Professors(props: Props) {
                 props.forwardRef.current = ref
             }
         }} className='container container-padding' id="professors-container">
-            <h2>Our team</h2>
+            <h2>Postdoctoral Reseachers</h2>
             {professorsData.map((row, index) => (
                 <React.Fragment key={index.toString()}>
                     <div className='row row-expand-10'>
@@ -48,4 +48,4 @@ function getRowItems(widthScope: WidthScope) {
     }
 }
 
-export default monitorWindowWidth(Professors)
+export default monitorWindowWidth(Postdoctors)

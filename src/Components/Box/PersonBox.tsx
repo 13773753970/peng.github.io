@@ -20,4 +20,12 @@ function PersonBox(props: Props) {
     )
 }
 
+export function BlankPersonBox() {
+    return (
+        <div className="person-container">
+
+        </div>
+    )
+}
+
 export default PersonBox

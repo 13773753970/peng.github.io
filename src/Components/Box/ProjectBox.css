@@ -35,6 +35,12 @@
 }
 
 .project-container p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
     color: #504b47;
     font-weight: 300;
     line-height: 27px;

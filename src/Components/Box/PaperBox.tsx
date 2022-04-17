@@ -30,7 +30,7 @@ function PaperBox(props: Props) {
                         <span>[...]</span>
                     </li>
                 )}
-                {authors.slice(authors.length - 1).map(x => (
+                {authors.length > 3 && authors.slice(authors.length - 1).map(x => (
                     <li key={x.name} className='author-container'>
                         <img alt={x.name} className='author-portrait' src={x.portrait === undefined ? require('../../Images/profile_default.jpeg') : x.portrait}/>
                         <span className='author-name'>{x.name}</span>

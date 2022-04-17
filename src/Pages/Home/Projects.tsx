@@ -2,7 +2,7 @@ import React from 'react'
 import {useNavigate} from 'react-router-dom'
 import * as R from 'ramda'
 import monitorWindowWidth from '../../Hocs/monitorWindowWidth'
-import ProjectBox from '../../Components/Box/ProjectBox'
+import ProjectBox, {BlankProjectBox} from '../../Components/Box/ProjectBox'
 import {WidthScope} from '../../helper'
 import projectsData from '../../Data/projects'
 
@@ -26,6 +26,7 @@ function Projects(props: Props) {
                 <React.Fragment key={index.toString()}>
                     <div className='row row-expand-15'>
                         {row.map(project => <ProjectBox onClick={() => navigate(`/projects/${project.link}`)} key={project.title} title={project.title} description={project.description} icon={project.icon}/>)}
+                        {new Array(rowItems - row.length).fill(1).map((x, i) => <BlankProjectBox key={i.toString()}/>)}
                     </div>
                     {index !== projectsDataSplited.length - 1 && <div className="spacer"></div>}
                 </React.Fragment>
