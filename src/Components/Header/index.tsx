@@ -15,7 +15,7 @@ function Header(props: Props) {
     const [currentRegion, setCurrentRegion] = useState(getCurrentRegion(props.regions, window.innerHeight))
     const headerHeightRef = useRef(getWidthScope(window.innerWidth) === WidthScope.SmallWidth ? 80 : 110)
     const [mobileHeaderActive, setMobileHeaderActive] = useState(false)
-    const hideBigMenu = props.regions.length > 5 // 仅显示移动端menu
+    const hideBigMenu = props.regions.length > 6 // 仅显示移动端menu
     useEffect(() => {
         // 组建挂载好了更新region
         setCurrentRegion(getCurrentRegion(props.regions, window.innerHeight))

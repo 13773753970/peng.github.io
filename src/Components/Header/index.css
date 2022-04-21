@@ -178,9 +178,6 @@
     .main-menu .navbar .navbar-collapse ul li button {
         padding: 0px 8px;
     }
-}
-
-@media (max-width: 992px) {
     .main-menu .navbar-nav {
         display: none;
     }
@@ -190,6 +187,10 @@
     .mobile-menu {
         display: block;
     }
+}
+
+@media (max-width: 992px) {
+
 }
 
 @media (max-width: 768px) {

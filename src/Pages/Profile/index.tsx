@@ -18,7 +18,7 @@ function ProfilePage(props: Props) {
     const setRegions = useCallback((regions: {title: string, domRef: React.MutableRefObject<HTMLDivElement | null>}[]) => {
         _setRegions(regions.concat([{title: 'Contact', domRef: contactUsRef}]))
     }, [])
-    if (person === undefined) {
+    if (person === undefined || person.profile === undefined) {
         return <Page404/>
     }
     const Profile = person.profile

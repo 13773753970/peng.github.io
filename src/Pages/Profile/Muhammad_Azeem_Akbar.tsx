@@ -21,7 +21,7 @@ function Muhammad_Azeem_Akbar(props: Props) {
                 <div ref={ref => introductionRef.current = ref} className="row section">
                     <div className="col-3">
                         {/* photo */}
-                        <img className="profile-photo" src={require('../../Images/Muhammad-Azeem-Akbar-profile.jpeg')} alt="Muhammad Azeem Akbar"/>
+                        <img className="profile-photo" src={require('../../Images/Muhammad-Azeem-Akbar-profile-2.jpeg')} alt="Muhammad Azeem Akbar"/>
                     </div>
                     <div className="col-9">
                         <div className="name-wrapper">

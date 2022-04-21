@@ -4,6 +4,7 @@ import Projects from './Projects'
 import Professors from './Professors'
 import PostdoctoralResearchers from './Postdoctors'
 import ContactUs from '../../Components/ContactUs'
+// import Students from './Students'
 import { useRef } from 'react'
 
 type Props = {
@@ -15,6 +16,7 @@ function HomePage(props: Props) {
     const projectsRef = useRef<HTMLDivElement | null>(null)
     const professorsRef = useRef<HTMLDivElement | null>(null)
     const postdoctorsRef = useRef<HTMLDivElement | null>(null)
+    // const studentsRef = useRef<HTMLDivElement | null>(null)
     const contactUsRef = useRef<HTMLDivElement | null>(null)
     return (
         <>
@@ -23,6 +25,7 @@ function HomePage(props: Props) {
                 {title: 'Projects', domRef: projectsRef},
                 {title: 'Our team', domRef: professorsRef},
                 {title: 'Postdoctors', domRef: postdoctorsRef},
+                // {title: 'Students', domRef: studentsRef},
                 {title: 'contact', domRef: contactUsRef}
             ]}/>
             <Description forwardRef={descriptionRef}
@@ -37,6 +40,7 @@ function HomePage(props: Props) {
             <Projects forwardRef={projectsRef}/>
             <Professors forwardRef={professorsRef}/>
             <PostdoctoralResearchers forwardRef={postdoctorsRef}/>
+            {/* <Students forwardRef={studentsRef}/> */}
             <ContactUs forwardRef={contactUsRef}/>
         </>
     )

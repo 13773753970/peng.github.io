@@ -29,7 +29,7 @@ function Aakash_Ahmad(props: Props) {
                 <div ref={ref => introductionRef.current = ref} className="row section">
                     <div className="col-3">
                         {/* photo */}
-                        <img className="profile-photo" src={require('../../Images/Aakash-Ahmad-profile.jpeg')} alt="Aakash Ahmad"/>
+                        <img className="profile-photo" src={require('../../Images/Aakash-Ahmad-profile-2.jpeg')} alt="Aakash Ahmad"/>
                     </div>
                     <div className="col-9">
                         <div className="name-wrapper">

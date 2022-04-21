@@ -1,5 +1,6 @@
 .profile-container {
     font-family: 'Hind', sans-serif;
+    min-height: calc(100vh - 400px);
 }
 
 .profile-container a {

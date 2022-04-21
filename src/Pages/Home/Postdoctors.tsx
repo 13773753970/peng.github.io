@@ -26,7 +26,11 @@ function Postdoctors(props: Props) {
             {professorsData.map((row, index) => (
                 <React.Fragment key={index.toString()}>
                     <div className='row row-expand-10'>
-                        {row.map(professor => <PersonBox key={professor.id} image={professor.image} onClick={() => navigate(`/people/${professor.id}`)}/>)}
+                        {row.map(professor => 
+                            <PersonBox key={professor.id} name={professor.name} position={professor.position} image={professor.image} onClick={() => {
+                                navigate(`/people/${professor.id}`)
+                            }}/>
+                        )}
                         {new Array(rowItems - row.length).fill(1).map((x, i) => <BlankPersonBox key={i.toString()}/>)}
                     </div>
                     {index !== professorsData.length - 1 && <div className="spacer"></div>}

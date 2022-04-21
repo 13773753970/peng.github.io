@@ -39,7 +39,7 @@ function Muhammad_Waseem(props: Props) {
                 <div ref={ref => introductionRef.current = ref} className="row section">
                     <div className="col-3">
                         {/* photo */}
-                        <img className="profile-photo" src={require('../../Images/Muhammad-Waseem-profile.jpeg')} alt="Muhammad Waseem"/>
+                        <img className="profile-photo" src={require('../../Images/Muhammad-Waseem-profile-2.jpeg')} alt="Muhammad Waseem"/>
                     </div>
                     <div className="col-9">
                         <div className="name-wrapper">
@@ -49,11 +49,12 @@ function Muhammad_Waseem(props: Props) {
                         </div>
                         {/* brief introduction */}
                         <p>
-                            I completed my Ph.D. from School of <a href='http://cs.whu.edu.cn/'>Computer Science</a>, <a href='https://www.whu.edu.cn/'>Wuhan University</a>, China in December 2021. 
-                            During my Ph.D. studies, I have published 7 peer-reviewed journals and conferences papers as the first author in leading software engineering venues such as JSS, ICSE, ICSOC, EASE, and APSEC.
-                            Before pursuing my Ph.D., I worked as a lecturer in the Department of <a href='https://www.iiu.edu.pk/?page_id=1811'>Computer Science and Software Engineering</a>, <a href='https://iiu.edu.pk/'>International Islamic University</a>, Pakistan, for seven years.
-                            I received my master's degree in software engineering from <a href='https://iiu.edu.pk/'>International Islamic University</a>, Pakistan.
-                            My current research interests include software architecture, microservices architecture, and AI-based software engineering.
+                            Muhammad Waseem is a researcher in the School of <a href='http://cs.whu.edu.cn/'>Computer Science</a>, <a href='https://www.whu.edu.cn/'>Wuhan University</a>, Wuhan, China. 
+                            Waseem is passionate about research in Software Engineering. 
+                            His key research goals are (i) to develop a deep understanding of how large-scale software-intensive systems are designed, developed, and evaluated in the industry, and (ii) to develop and evaluate techniques, processes, and tools to increase the ability of software organizations in developing and deploying high-quality software-intensive systems. 
+                            His research interests reside primarily in Software Architecture, Microservices Architecture, Empirical Software Engineering, DevOps, and Automated Software Engineering. 
+                            He used a wide range of research methods, including qualitative (e.g., grounded theory and interviews) and quantitative (e.g., controlled experiment and mining software repositories) methods. 
+                            He published many research papers as the first author in leading software engineering venues such as the Journal of Systems and Software, ICSE, EASE, ICSOC, and APSEC.
                         </p>
                         {/* Information */}
                         <div className="row">
@@ -114,8 +115,6 @@ function Muhammad_Waseem(props: Props) {
                     <div className='col-9'>
                         <div className='row'>
                             <div className='col-6'>
-                                <p><b>Key Postdoctoral Researcher</b>. School of Computer Science, Wuhan University, Wuhan, China</p>
-                                <p>Jan 2022 - Now</p>
                                 <p><b>Lecturer</b>. Department of Computer Science and Software Engineering, International Islamic University, Islamabad, Pakistan.</p>
                                 <p>Oct 2016 - Sep 2017</p>
                                 <p><b>Teaching Research Associate</b>. Department of Computer Science and Software Engineering, International Islamic University, Islamabad, Pakistan.</p>
@@ -190,23 +189,16 @@ function Muhammad_Waseem(props: Props) {
                     </div>
                     <div className='col-9'>
                         <div className='row'>
-                            <div className='col-6'>
-                                <h4>Reviewer</h4>
-                                <ul>
-                                    <li>Information and Software Technology (IST) </li>
-                                    <li>Automated Software Engineering (AUSE)</li>
-                                    <li>Frontiers of Computer Science (FCS)</li>
-                                    <li>IEEE International Conference on Soñware Architecture (ICSA)</li>
-                                </ul>
-                            </div>
-                            <div className='col-6'>
-                                <h4>Organizer</h4>
-                                <ul>
-                                    <li>Evolution and Assessmenl in Software Engineering (EASE)</li>
-                                    <li>Asia-Pacific Software Engineering Conference (APSEC)</li>
-                                    <li>Evolution and Assessment in Software Engineering (EASE) 2nd International DevOps Quality Management Workshop - 2021</li>
-                                </ul>
-                            </div>
+                            <h4>Reviewer</h4>
+                            <ul>
+                                <li>Information and Software Technology (IST) </li>
+                                <li>Automated Software Engineering (AUSE)</li>
+                                <li>Frontiers of Computer Science (FCS)</li>
+                                <li>IEEE International Conference on Soñware Architecture (ICSA)</li>
+                                <li>Evolution and Assessmenl in Software Engineering (EASE)</li>
+                                <li>Asia-Pacific Software Engineering Conference (APSEC)</li>
+                                <li>Evolution and Assessment in Software Engineering (EASE) 2nd International DevOps Quality Management Workshop - 2021</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -241,7 +233,7 @@ function Muhammad_Waseem(props: Props) {
                                 </ul>
                             </div>
                             <div className='col-6'>
-                                <h4>Celifications</h4>
+                                <h4>Certifications</h4>
                                 <ul>
                                     <li>2021 Hanyu Shuiping Kaoshi (Level V)</li>
                                     <li>2018 Hanyu Shuiping Kaoshi (Level IV)</li>
