@@ -49,9 +49,9 @@ function Arif_Ali_Khan(props: Props) {
                         <p>
                             Arif Ali Khan works as an Assistant Professor with the M3S Unit, Empirical Software Engineering in Software, Systems and Services, <a href='https://www.oulu.fi/en'>University of Oulu, Finland</a>. 
                             Previously he worked as a faculty member with the Faculty of <a href='https://www.jyu.fi/it/en'>Information Technology</a>, <a href='https://www.jyu.fi/en/'>University of Jyvaskyla, Finland</a>; 
-                            <a href='http://cs.nuaa.edu.cn/'>College of Computer Science and Technology</a>, <a href='https://www.nuaa.edu.cn/'>Nanjing University of Aeronautics and Astronautics, China</a>; 
-                            and <a href='http://ww3.comsats.edu.pk/cs/'>Department of Computer Science</a>, <a href='https://www.comsats.edu.pk/'>COMSATS University, Islamabad, Pakistan</a>. 
-                            He received a BS degree in software engineering from <a href='https://www.ustb.edu.pk/'>the University of Science and Technology, Bannu, Pakistan</a>
+                             <a href='http://cs.nuaa.edu.cn/'> College of Computer Science and Technology</a>, <a href='https://www.nuaa.edu.cn/'>Nanjing University of Aeronautics and Astronautics, China</a>; 
+                            and <a href='http://ww3.comsats.edu.pk/cs/'>Department of Computer Science</a>, <a href='https://www.comsats.edu.pk/'>COMSATS University, Islamabad, Pakistan</a>.  
+                            He received a BS degree in software engineering from <a href='https://www.ustb.edu.pk/'>the University of Science and Technology, Bannu, Pakistan </a>
                             and an MSc degree in information technology from <a href='https://www.utp.edu.my/Pages/Home.aspx'>Universiti Teknologi PETRONAS, Malaysia</a>. 
                             He obtained a PhD degree in software engineering from <a href='https://www.cs.cityu.edu.hk/'>the Department of Computer Science</a>, <a href='https://www.cityu.edu.hk/'>City University of Hong Kong</a>. 
                             He has participated in and managed several empirical software engineering-related research projects. 
@@ -64,6 +64,7 @@ function Arif_Ali_Khan(props: Props) {
                             <div className="col-6">
                                 <h3>Email: arif.khan@oulu.fi</h3>
                                 <h3>Mobile: +358403291085</h3>
+                                <h3><a href='https://scholar.google.com.my/citations?user=XgJCSmIAAAAJ'>Google Scholar</a>, <a href='https://dblp.org/pid/166/2442.html'>DBLP</a></h3>
                             </div>
                             <div className="col-6">
                                 <h3>Address: Faculty of Information Technology and Electrical Engineering, University of Oulu, Pentti Kaiteran katu 1, 90570 Oulu, Finland</h3>
@@ -78,8 +79,27 @@ function Arif_Ali_Khan(props: Props) {
                     </div>
                     <div className='col-9'>
                         <h4>My research interests mainly include, but are not restricted to:</h4>
-                        <p>Software process improvement, global software development, multi-criteria decision analysis, DevOps, microservices architecture, AI ethics, agile software development, requirements change management, soft computing, and evidence-based software engineering.</p>
-                        <p className='logocolor'>To prospective students: I am recruiting devoted postgraduate students to do research in the above-mentioned areas. Interested undergraduate students are also encouraged to contact me, to work on related topics.</p>
+                        <div className='row'>
+                            <div className='col-6'>
+                                <ul>
+                                    <li>Software Process Improvement</li>
+                                    <li>Global Software Development</li>
+                                    <li>Multi-criteria Decision Analysis</li>
+                                    <li>DevOps</li>
+                                    <li>Microservices Architecture</li>
+                                </ul>
+                            </div>
+                            <div className='col-6'>
+                                <ul>
+                                    <li>AI Ethics</li>
+                                    <li>Agile Software Development</li>
+                                    <li>Requirements Change Management</li>
+                                    <li>Soft Computing</li>
+                                    <li>Evidence-based Software Engineering</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p className='logocolor'>To prospective students: Interested research students are encouraged to contact me to work on related topics.</p>
                     </div>
                 </div>
                 {/* research projects */}
@@ -93,7 +113,7 @@ function Arif_Ali_Khan(props: Props) {
                             <li>Software Architecture for Quantum Computing Systems</li>
                             <li>Managing DevOps practices</li>
                             <li>Software Process Improvement Implementation and Management Model (SPIIMM) for Global Software Development</li>
-                            <li>Communication Risk Framework for Requirements Change Management in Global Software Development.</li>
+                            <li>Communication Risk Framework for Requirements Change Management in Global Software Development</li>
                             <li>Managing Reward System in Software Crowdsourcing</li>
                             <li>Scaling Agile Methods in Chinese Globally Development Industry</li>
                             <li>Requirements Change Management in the domain of Global Software Development</li>
@@ -107,9 +127,9 @@ function Arif_Ali_Khan(props: Props) {
                     </div>
                     <div className='col-9'>
                         <ul>
-                            <li>Dimensional Classification of Success Factors Affecting Process Improvement in Global Software Development: Client-Vendor Perspective, HEC SRGP grant, No21-1933/SRGP/R&D/HEC/2018, (PKR 0.5 million) Principal Investigator (P.I.)</li>
-                            <li>GSEPIM: A Road Map for Software Process Assessment and Improvement in the domain of Global Software Development, Nanjing University of Aeronautics and Astronautics Startup Grant, Grant No: 1015‐YAH18056, (60K RMB), Principal Investigator (P.I.)</li>
-                            <li>A Step towards the improvement in the Performance of Text Classification, HEC SRGP grant, No21-1933/SRGP/R&D/HEC/2018, (PKR 1 million) Co-Principal Investigator (CO-P.I.).</li>
+                            <li>Dimensional Classification of Success Factors Affecting Process Improvement in Global Software Development: Client-Vendor Perspective, HEC SRGP grant, No21-1933/SRGP/R&D/HEC/2018, (PKR 0.5 million) Principal Investigator (PI).</li>
+                            <li>GSEPIM: A Road Map for Software Process Assessment and Improvement in the domain of Global Software Development, Nanjing University of Aeronautics and Astronautics Startup Grant, Grant No: 1015‐YAH18056, (60K RMB), Principal Investigator (PI).</li>
+                            <li>A Step towards the improvement in the Performance of Text Classification, HEC SRGP grant, No21-1933/SRGP/R&D/HEC/2018, (PKR 1 million) Co-Principal Investigator (CO-PI).</li>
                         </ul>
                     </div>
                 </div>
@@ -121,17 +141,16 @@ function Arif_Ali_Khan(props: Props) {
                     <div className='col-9'>
                         <h4>Graduated PhD Students as a Co-Supervisor:</h4>
                         <ul>
-                            <li>Muhammad Azeem Akbar (Managing requirements change in global software development)</li>
-                            <li>Mohammad Shameem (Developing a maturity model for scaling Agile methodologies in the domain of global software development)</li>
+                            <li>Muhammad Azeem Akbar (Managing requirements change in global software development)-(Graduated, 2019)</li>
+                            <li>Mohammad Shameem (Developing a maturity model for scaling Agile methodologies in the domain of global software development)-(Graduated, 2019)</li>
                         </ul>
                         <h4>Master Research Students:</h4>
                         <ul>
-                            <li>Mei Raogao (Microservice architecture trends in Chinese software development industry)</li>
-                            <li>Peng Zhou (What Chinese industry really demand from academia? Software processes perspective)</li>
-                            <li>Sun (Managing Reward System in Software Crowdsourcing)</li>
+                            <li>Peng Zhou (What Chinese industry really demand from academia? Software processes perspective)-(2020- till date)</li>
+                            <li>Sun (Managing Reward System in Software Crowdsourcing)-(Graduated, 2021)</li>
                             <li>Sher Badshah (DevOps maturity model based on CMMI and ITIL)-(Graduated, 2020)</li>
-                            <li>Nasir Hussain (Categorical Classification of Factors Effecting Knowledge Management in Software Crowdsourcing) -(Graduated, 2020)</li>
-                            <li>Ayesha Amjid (Proposed a framework for risk management in Pakistani global software development industry) – (Graduated, 2019)</li>
+                            <li>Nasir Hussain (Categorical Classification of Factors Effecting Knowledge Management in Software Crowdsourcing)-(Graduated, 2020)</li>
+                            <li>Ayesha Amjid (Proposed a framework for risk management in Pakistani global software development industry)-(Graduated, 2019)</li>
                             <li>Amna (Implementing CMMI Level 3 with Agile at Health Care Software Development Organizations)-(Graduated, 2019)</li>
                         </ul>
                     </div>
@@ -237,7 +256,7 @@ function Arif_Ali_Khan(props: Props) {
                         <div className='row'>
                             {/* teaching activities left clumn*/}
                             <div className='col-6'>
-                                <h3>College of Computer Science and Technology, Nanjing University of Aeronautics and Astronautics, Nanjing, China (May 2018- May 2021) Sole Instructor for Software Engineering</h3>
+                                <h3>College of Computer Science and Technology, Nanjing University of Aeronautics and Astronautics, Nanjing, China (May 2018- May 2021) <br></br>Sole Instructor for Software Engineering</h3>
                                 <ul>
                                     <li>Conduct lectures and prepare teaching material for 4 hours’ weekly lectures</li>
                                     <li>Designed course project for developing a software system</li>
@@ -247,7 +266,7 @@ function Arif_Ali_Khan(props: Props) {
                                     <li>Re-designed the course syllabus and prepare the teaching material for 4 hours’ weekly lectures</li>
                                     <li>Designed course project for deploying CMMI practices</li>
                                 </ul>
-                                <h3>Department of Computer Science, COMSATS University, Islamabad, Pakistan (Jan 2018- May 2018) Sole Instructor for Software Project Management</h3>
+                                <h3>Department of Computer Science, COMSATS University, Islamabad, Pakistan (Jan 2018- May 2018) <br></br>Sole Instructor for Software Project Management</h3>
                                 <ul>
                                     <li>Designed the course syllabus and prepare the teaching material for 6 hours’ weekly lectures (3 different batches)</li>
                                 </ul>
@@ -256,7 +275,7 @@ function Arif_Ali_Khan(props: Props) {
                                     <li>Proposed the course first time in the department</li>
                                     <li>Designed the course syllabus and prepare the teaching material for 2 hours’ weekly lectures</li>
                                 </ul>
-                                <h3>City University of Hong Kong (Aug 2014- Aug 2017) Teaching Assistant for Object Oriented Programming</h3>
+                                <h3>City University of Hong Kong (Aug 2014- Aug 2017) <br></br>Teaching Assistant for Object Oriented Programming</h3>
                                 <ul>
                                     <li>Conducted 2 hours’ weekly lab sessions</li>
                                     <li>Graded weekly lab work</li>
@@ -277,7 +296,7 @@ function Arif_Ali_Khan(props: Props) {
                                 <ul>
                                     <li>Graded weekly lab work</li>
                                 </ul>
-                                <h3>Universiti Teknologi PETRONAS, Malaysia (Oct 2011- Nov 2013) Teaching Assistant for System Analysis and Design</h3>
+                                <h3>Universiti Teknologi PETRONAS, Malaysia (Oct 2011- Nov 2013) <br></br>Teaching Assistant for System Analysis and Design</h3>
                                 <ul>
                                     <li>Conducted 2 hours’ weekly lab sessions</li>
                                     <li>Graded weekly lab work</li>
@@ -310,18 +329,18 @@ function Arif_Ali_Khan(props: Props) {
                             <li>1st International workshop on DevOps quality management (DevOps-QM)- collocated with the 24th International Conference on Evaluation and Assessment in Software Engineering (EASE 2020), 15-17 April, 2020, Trondheim, Norway.</li>
                             <li>International workshop on Empirical Studies in the Domain of Global Software Engineering (ESDGSE), collocated with the 14th International Conference on Evaluation of Novel Approaches to Software Engineering, 4th-5th May, 2019, Heraklion, Greece.</li>
                         </ul>
-                        <h4>WorkshopCo-Chair:</h4>
+                        <h4>Workshop Co-Chair:</h4>
                         <ul>
-                            <li>1st International workshop on enabling software engineering practices via blockchain technology (ESEpBT)-collocated with the 3rd International Conference on Emerging Data and Industry 4.0 (EDI40 2020)</li>
-                            <li>International Workshop on Empirical Studies in the Domain of Social Network Computing, La Toja Island, Spain (16th-19th April, 2019)</li>
+                            <li>1st International workshop on enabling software engineering practices via blockchain technology (ESEpBT)-collocated with the 3rd International Conference on Emerging Data and Industry 4.0 (EDI40 2020).</li>
+                            <li>International Workshop on Empirical Studies in the Domain of Social Network Computing, La Toja Island, Spain (16th-19th April, 2019).</li>
                         </ul>
                         <h4>Guest Editor:</h4>
                         <ul>
                             <li>S1: (lead guest editor) Special Issue on Managing Software Processes Using Soft Computing Techniques in Information and Software Technology Journal.</li>
-                            <li>S1: Special Issue on Evolving Software Process Paradigms: Trends and Future Directions in Information Technology and Management Journal (2020)</li>
-                            <li>S2: Special Issue on COVID-19 impacts on Software Engineering industry and research community in CMC-Computers, Materials & Continua Journal (2020)</li>
-                            <li>S3: Special issue on Multimedia Software Engineering: Challenges and Opportunities in Multimedia Tools and Applications Journal (2020)</li>
-                            <li>S4: Special Issue on Knowledge Discovery for Software Development in IET Software Journal (2019)</li>
+                            <li>S1: Special Issue on Evolving Software Process Paradigms: Trends and Future Directions in Information Technology and Management Journal (2020).</li>
+                            <li>S2: Special Issue on COVID-19 impacts on Software Engineering industry and research community in CMC-Computers, Materials & Continua Journal (2020).</li>
+                            <li>S3: Special issue on Multimedia Software Engineering: Challenges and Opportunities in Multimedia Tools and Applications Journal (2020).</li>
+                            <li>S4: Special Issue on Knowledge Discovery for Software Development in IET Software Journal (2019).</li>
                         </ul>
                         <h4>Book Editor:</h4>
                         <ul>
@@ -329,16 +348,16 @@ function Arif_Ali_Khan(props: Props) {
                         </ul>
                         <h4>Invited Talks:</h4>
                         <ul>
-                            <li>Keynote talk: The Zoo of Agile Practices: Where the Chinese Global Software Development Industry is Heading? at 10th International Conference on Computer Engineering and Networks (CENet2020), Xian, China</li>
+                            <li>Keynote talk: The Zoo of Agile Practices: Where the Chinese Global Software Development Industry is Heading? at 10th International Conference on Computer Engineering and Networks (CENet2020), Xian, China.</li>
                         </ul>
                         <h4>Program Committee Member:</h4>
                         <ul>
-                            <li>International Conference on Software Analysis, Evolution, and Reengineering (SANER 2022)</li>
-                            <li>IEEE International Conference on Software Quality, Reliability and Security (QRS 2020) </li>
-                            <li>First International Workshop on Software Engineering Automation: A Natural Language Perspective, co-located with 35th IEEE/ACM International Conference on Automated Software Engineering (ASE2020), Melbourne, Australia.</li>
-                            <li>17th IEEE International conference on frontiers of information technology (FIT 2019)</li>
-                            <li>Evaluation and Assessment in Software Engineering (EASE 2019) Conference (Posters Session)</li>
-                            <li>32nd ACM SIGAPP Symposium on Applied Computing, Marrakech, (SAC 2016) </li>
+                            <li>International Conference on Software Analysis, Evolution, and Reengineering (SANER 2022).</li>
+                            <li>IEEE International Conference on Software Quality, Reliability and Security (QRS 2020). </li>
+                            <li>First International Workshop on Software Engineering Automation: A Natural Language Perspective, co-located with 35th IEEE/ACM International Conference on Automated Software Engineering (ASE2020).</li>
+                            <li>17th IEEE International conference on frontiers of information technology (FIT 2019).</li>
+                            <li>Evaluation and Assessment in Software Engineering (EASE 2019) Conference (Posters Session).</li>
+                            <li>32nd ACM SIGAPP Symposium on Applied Computing, Marrakech, (SAC 2016). </li>
                         </ul>
                         <h4>Reviewer:</h4>
                         <ul>
@@ -351,8 +370,8 @@ function Arif_Ali_Khan(props: Props) {
                             <li>Computer Science Review Journal</li>
                             <li>Applied Soft Computing Journal</li>
                             <li>Journal of Software: Evolution and Process</li>
-                            <li>1IEEE Access Journal</li>
-                            <li>1Information Resources Management Journal (IRMJ)</li>
+                            <li>IEEE Access Journal</li>
+                            <li>Information Resources Management Journal (IRMJ)</li>
                         </ul>
                         <h4>External PhD thesis examiner:</h4>
                         <ul>

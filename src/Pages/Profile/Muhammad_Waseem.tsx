@@ -49,7 +49,7 @@ function Muhammad_Waseem(props: Props) {
                         </div>
                         {/* brief introduction */}
                         <p>
-                            Muhammad Waseem is a researcher in the School of <a href='http://cs.whu.edu.cn/'>Computer Science</a>, <a href='https://www.whu.edu.cn/'>Wuhan University</a>, Wuhan, China. 
+                            Muhammad Waseem is a researcher in the School of <a href='http://cs.whu.edu.cn/'>Computer Science</a>, <a href='https://www.whu.edu.cn/'>Wuhan University, Wuhan, China</a>. 
                             Waseem is passionate about research in Software Engineering. 
                             His key research goals are (i) to develop a deep understanding of how large-scale software-intensive systems are designed, developed, and evaluated in the industry, and (ii) to develop and evaluate techniques, processes, and tools to increase the ability of software organizations in developing and deploying high-quality software-intensive systems. 
                             His research interests reside primarily in Software Architecture, Microservices Architecture, Empirical Software Engineering, DevOps, and Automated Software Engineering. 
@@ -60,9 +60,10 @@ function Muhammad_Waseem(props: Props) {
                         <div className="row">
                             <div className="col-6">
                                 <h3>Twitter: @wasimsse</h3>
-                                <h3>Instagram: https://tinyurl.com/36n2mtrd</h3>
+                                <h3><a href='https://scholar.google.com/citations?user=9SUTWpAAAAAJ'>Google Scholar</a>, <a href='https://dblp.org/pid/52/4427.html'>DBLP</a></h3>
                             </div>
                             <div className="col-6">
+                                <h3>Instagram: https://tinyurl.com/36n2mtrd</h3>
                                 <h3>Email: m.waseem@whu.edu.cn</h3>
                             </div>
                         </div>

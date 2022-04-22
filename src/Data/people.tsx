@@ -4,9 +4,10 @@ import Aakash_Ahmad from '../Pages/Profile/Aakash_Ahmad'
 import Muhammad_Waseem from '../Pages/Profile/Muhammad_Waseem'
 import Muhammad_Azeem_Akbar from '../Pages/Profile/Muhammad_Azeem_Akbar'
 import Peng_Liang from '../Pages/Profile/Peng_Liang'
-import Mikkonen_Tommi from '../Pages/Profile/Mikkonen_Tommi'
+import Tommi_Mikkonen from '../Pages/Profile/Tommi_Mikkonen'
 import Mahmood_Niazi from '../Pages/Profile/Mahmood_Niazi'
 import Peng_Zhou from '../Pages/Profile/Peng_Zhou'
+import Pekka_Abrahamsson from '../Pages/Profile/Pekka_Abrahamsson'
 
 export enum Title {
     Professor,
@@ -15,6 +16,14 @@ export enum Title {
 }
 
 const people = [
+    {
+        id: 'Pekka-Abrahamsson',
+        name: 'Pekka Abrahamsson',
+        title: Title.Professor,
+        position: 'Professor',
+        image: require('../Images/Pekka-Abrahamsson-profile.jpeg'),
+        profile: Pekka_Abrahamsson
+    },
     {
         id: 'Arif-Ali-Khan',
         name: 'Arif Ali Khan',
@@ -59,17 +68,17 @@ const people = [
         id: 'Peng-Liang',
         name: 'Peng Liang',
         title: Title.Professor,
-        position: 'Lecturer',
+        position: 'Professor',
         image: require('../Images/Peng-Liang-profile.jpeg'),
         profile: Peng_Liang
     },
     {
-        id: 'Mikkonen-Tommi',
-        name: 'Mikkonen Tommi',
+        id: 'Tommi_Mikkonen',
+        name: 'Tommi Mikkonen',
         title: Title.Professor,
         position: 'Professor',
-        image: require('../Images/Mikkonen-Tommi-profile.jpeg'),
-        profile: Mikkonen_Tommi
+        image: require('../Images/Tommi-Mikkonen-profile.jpeg'),
+        profile: Tommi_Mikkonen
     },
     {
         id: 'Mahmood-Niazi',

@@ -31,8 +31,8 @@ function Mahdi_Fahmideh(props: Props) {
                         </div>
                         {/* brief introduction */}
                         <p>
-                        Mahdi is a senior lecturer at the <a href='https://www.usq.edu.au/bela/school-of-business'>school of Business</a>, <a href='https://www.usq.edu.au/'>University of Southern Queensland</a>, Australia. 
-                        He received a PhD degree in Information Systems from the <a href='https://www.unsw.edu.au/business'>Business School</a> of the <a href='https://www.unsw.edu.au/'>University of New South Wales (UNSW)</a>, Sydney, Australia. 
+                        Mahdi is a senior lecturer at the <a href='https://www.usq.edu.au/bela/school-of-business'>school of Business</a>, <a href='https://www.usq.edu.au/'>University of Southern Queensland, Australia</a>. 
+                        He received a PhD degree in Information Systems from the <a href='https://www.unsw.edu.au/business'>Business School</a> of the <a href='https://www.unsw.edu.au/'>University of New South Wales (UNSW), Sydney, Australia</a>. 
                         Mahdi’s research outcomes, which sit at the intersection of Internet-based computing technologies, can be in the form of conceptual models, system development methodologies, and decision-making frameworks. 
                         His research appeared in the peer-reviewed ERA CORE A/A* international Information Systems and Software Engineering venues such as the European Journal of Information System (EJIS), IEEE Transactions on Software Engineering (TSE), Information Sciences, Information Systems, Information and Software Technology (IST), Journal of Systems and Software (JSS), ACM Computing Surveys (CSUR), Journal of Computers and Industrial Engineering, and others.
                         Before joining academia, Mahdi has worked as an analyst programmer in different industry sectors including accounting, insurance, and publishing.
@@ -42,6 +42,7 @@ function Mahdi_Fahmideh(props: Props) {
                         <div className="row">
                             <div className="col-6">
                                 <h3>Phone: +61 7 3470 4349</h3>
+                                <h3><a href='https://scholar.google.com/citations?user=80ikpB0AAAAJ'>Google Scholar</a>, <a href='https://dblp.org/pid/18/10134.html'>DBLP</a></h3>
                             </div>
                             <div className="col-6">
                                 <h3>Email: Mahdi.Fahmideh@usq.edu.au</h3>

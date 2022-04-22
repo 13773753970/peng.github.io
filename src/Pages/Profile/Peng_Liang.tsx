@@ -29,20 +29,21 @@ function Peng_Liang(props: Props) {
                         <div className="name-wrapper">
                             {/* Name and Title */}
                             <h1>Peng Liang</h1>
-                            <span className='logocolor'>Lecturer</span>
+                            <span className='logocolor'>Professor</span>
                         </div>
                         {/* brief introduction */}
                         <p>
-                            More detail information could be accessed at <a target='_blank' rel="noreferrer" href='https://www.cs.rug.nl/search/People/PengLiang'>my personal website</a> 
+                            More detail information could be accessed at <a target='_blank' rel="noreferrer" href='https://www.cs.rug.nl/search/People/PengLiang'>my personal website</a>. 
                         </p>
                         {/* Information */}
                         <div className="row">
                             <div className="col-6">
-                                <h3>University: <a href='https://www.whu.edu.cn/'>Wuhan University</a></h3>
-                                <h3>Phone: +31-50-363-7480</h3>
+                                <h3>University: <a href='https://www.whu.edu.cn/'>Wuhan University, China</a></h3>
+                                <h3><a href='https://scholar.google.com/citations?user=76CoujsAAAAJ'>Google Scholar</a>, <a href='https://dblp.org/pid/57/3505-1.html'>DBLP</a></h3>
                             </div>
                             <div className="col-6">
                                 <h3>Email: liangp@whu.edu.cn</h3>
+                                <h3>Phone: +31-50-363-7480</h3>
                             </div>
                         </div>
                     </div>
@@ -54,12 +55,12 @@ function Peng_Liang(props: Props) {
                     </div>
                     <div className='col-9'>
                         <ul>
-                            <li>architectural knowledge</li>
-                            <li>requirements engineering</li>
-                            <li>technical debt</li>
-                            <li>ontology applications</li>
-                            <li>software interoperability</li>
-                            <li>software modeling</li>
+                            <li>Architectural knowledge</li>
+                            <li>Requirements engineering</li>
+                            <li>Technical debt</li>
+                            <li>Ontology applications</li>
+                            <li>Software interoperability</li>
+                            <li>Software modeling</li>
                         </ul>
                     </div>
                 </div>

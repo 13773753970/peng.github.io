@@ -46,19 +46,13 @@ function Mahmood_Niazi(props: Props) {
                         I have published over 100 articles in peer reviewed conferences and journals.
                         </p>
                         <p>
-                        My work has received over 3900 citations (including self citations), and has obtained awards for best papers at several conferences. My h-index on Google Scholar is 30.
-                        </p>
-                        <p className='logocolor'>
-                        I am looking for potential PhD students. If you are interested in doing PhD with me then please send me an email.
-                        </p>
-                        <p>
-                        More detail information could be accessed at <a target='_blank' rel="noreferrer" href='http://www.ccse.kfupm.edu.sa/~mkniazi/index.html'>my personal website</a> 
+                        More detail information could be accessed at <a target='_blank' rel="noreferrer" href='http://www.ccse.kfupm.edu.sa/~mkniazi/index.html'>my personal website</a>.
                         </p>
                         {/* Information */}
                         <div className="row">
-                            {/* <div className="col-6">
-                                <h3>Phone: +358 50 3117999</h3>
-                            </div> */}
+                            <div className="col-6">
+                                <h3><a href='https://scholar.google.com/citations?user=5nWl5G4AAAAJ'>Google Scholar</a>, <a href='https://dblp.org/pid/07/2817.html'>DBLP</a></h3>
+                            </div>
                             <div className="col-6">
                                 <h3>Email: mkniazi@kfupm.edu.sa</h3>
                             </div>
@@ -72,8 +66,22 @@ function Mahmood_Niazi(props: Props) {
                     </div>
                     <div className='col-9'>
                         <h4>My research interests mainly include, but are not restricted to:</h4>
-                        <p>evidence-based software engineering, requirements engineering, sustainable, reliable and secure software engineering processes, global system development and management, project management, and software process improvement.</p>
-                        <p className='logocolor'>To prospective students: I am recruiting devoted postgraduate students to do research in the above-mentioned areas. Interested undergraduate students are also encouraged to contact me, to work on related topics.</p>
+                        <div className='row'>
+                            <div className='col-6'>
+                                <ul>
+                                    <li>Evidence-based Software Engineering</li>
+                                    <li>Requirements Engineering</li>
+                                    <li>Sustainable, Reliable and Secure Software Engineering Processes</li>
+                                </ul>
+                            </div>
+                            <div className='col-6'>
+                                <ul>
+                                    <li>Global System Development and Management</li>
+                                    <li>Project Management</li>
+                                    <li>Software Process Improvement</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

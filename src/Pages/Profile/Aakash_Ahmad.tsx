@@ -46,10 +46,10 @@ function Aakash_Ahmad(props: Props) {
                         {/* Information */}
                         <div className="row">
                             <div className="col-6">
-                                
+                                <h3><a href='https://scholar.google.com/citations?user=nWtJYoIAAAAJ'>Google Scholar</a>, <a href='https://dblp.org/pid/09/9384.html'>DBLP</a></h3>
                             </div>
                             <div className="col-6">
-
+                                <h3>Email: a.abbasi@uoh.edu.sa</h3>
                             </div>
                         </div>
                     </div>
@@ -61,9 +61,13 @@ function Aakash_Ahmad(props: Props) {
                     </div>
                     <div className='col-9'>
                         <h4>My research interests mainly include, but are not restricted to:</h4>
-                        <p>Software Evolution, Software Architectures, Architecture-Centric Software Evolution. </p>
+                        <ul>
+                            <li>Software Evolution</li>
+                            <li>Software Architectures</li>
+                            <li>Architecture-Centric Software Evolution</li>
+                        </ul>
                         <p>I am more excited to learn about and possibly apply some interesting synergies that exist among biological evolution, architectures in the real world and in development and evolution of software architectures.</p>
-                        <p className='logocolor'>To prospective students: I am recruiting devoted postgraduate students to do research in the above-mentioned areas. Interested undergraduate students are also encouraged to contact me, to work on related topics.</p>
+                        <p className='logocolor'>To prospective students: Interested research students are encouraged to contact me to work on related topics.</p>
                     </div>
                 </div>
                 {/* PUBLICATIONS */}
@@ -157,9 +161,9 @@ function Aakash_Ahmad(props: Props) {
                             <li>IEEE Transactions on Mobile Computing (TMC), IEEE.</li>
                             <li>IEEE Access, IEEE.</li>
                             <li>IBM Journal of Research and Development, IEEE.</li>
-                            <li>Journal of Systems and Software (JSS) - Elsevier</li>
-                            <li>Future Generation Computer Systems (FGCS) - Elsevier</li>
-                            <li>International Journal of Communication Systems (IJCS) - Wiley</li>
+                            <li>Journal of Systems and Software (JSS) - Elsevier.</li>
+                            <li>Future Generation Computer Systems (FGCS) - Elsevier.</li>
+                            <li>International Journal of Communication Systems (IJCS) - Wiley.</li>
                             <li>10th International ACM Sigsoft Conference on Quality of Software Architectures (QoSA), 2014. </li>
                             <li>8th European Conference on Software Architecture (ECSA), 2014.</li>
                             <li>21st Asia-Pacific Software Engineering Conference (APSEC), 2014.</li>
