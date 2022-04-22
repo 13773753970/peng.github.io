@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6ae3a6f6.css",
+    "main.js": "/static/js/main.330036de.js",
+    "static/js/787.ad757dd6.chunk.js": "/static/js/787.ad757dd6.chunk.js",
+    "static/media/cta-bg.jpeg": "/static/media/cta-bg.71a060c5a09a1bc57b93.jpeg",
+    "static/media/Mahmood-Niazi-profile.jpeg": "/static/media/Mahmood-Niazi-profile.8765f05f2d86215b2834.jpeg",
+    "static/media/Arif-Ali-Khan-profile.jpeg": "/static/media/Arif-Ali-Khan-profile.ba290ef2706b5f82e1ac.jpeg",
+    "static/media/Peng-Zhou-profile.jpeg": "/static/media/Peng-Zhou-profile.bbe83b84d43250475817.jpeg",
+    "static/media/Muhammad-Waseem-profile-2.jpeg": "/static/media/Muhammad-Waseem-profile-2.61cdbf9e40bf0018ff0c.jpeg",
+    "static/media/Aakash-Ahmad-profile-2.jpeg": "/static/media/Aakash-Ahmad-profile-2.d1ca53e21bded952d8a2.jpeg",
+    "static/media/Mikkonen-Tommi-profile-2.jpeg": "/static/media/Mikkonen-Tommi-profile-2.a759aa3d95d0da4e860c.jpeg",
+    "static/media/Muhammad-Azeem-Akbar-profile-2.jpeg": "/static/media/Muhammad-Azeem-Akbar-profile-2.268e6505a70c15d88896.jpeg",
+    "static/media/Mahdi-Fahmideh-profile.jpeg": "/static/media/Mahdi-Fahmideh-profile.05bf9ea31fa49f5e6c73.jpeg",
+    "static/media/Mahdi-Fahmideh-profile-2.jpeg": "/static/media/Mahdi-Fahmideh-profile-2.4787158f02e39d417419.jpeg",
+    "static/media/Muhammad-Azeem-Akbar-profile.jpeg": "/static/media/Muhammad-Azeem-Akbar-profile.7ee68b9f51386eebc4f3.jpeg",
+    "static/media/Mikkonen-Tommi-profile.jpeg": "/static/media/Mikkonen-Tommi-profile.b6b5e9a597175181ce95.jpeg",
+    "static/media/Aakash-Ahmad-profile.jpeg": "/static/media/Aakash-Ahmad-profile.8b159b5668f6b48a5397.jpeg",
+    "static/media/Muhammad-Waseem-profile.jpeg": "/static/media/Muhammad-Waseem-profile.2c9f21e7e57762098335.jpeg",
+    "index.html": "/index.html",
+    "static/media/Peng-Liang-profile.jpeg": "/static/media/Peng-Liang-profile.a4e5549330049b5e5e55.jpeg",
+    "static/media/logo.png": "/static/media/logo.5469bd606d2569a86952.png",
+    "main.6ae3a6f6.css.map": "/static/css/main.6ae3a6f6.css.map",
+    "main.330036de.js.map": "/static/js/main.330036de.js.map",
+    "787.ad757dd6.chunk.js.map": "/static/js/787.ad757dd6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ae3a6f6.css",
+    "static/js/main.330036de.js"
+  ]
+}
