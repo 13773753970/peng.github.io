@@ -16,7 +16,7 @@ function ContactUs(props: Props) {
                 <div className="container">
                     <img className="logo" src={require('../../Images/logo.png')} alt="digital transformation lab" />
                     <h2>Contact Us</h2>
-                    <p>If you are interesting in joining our group for phd program, partnership, volunteer job, please contact us.</p>
+                    <p>If you are interesting in joining our group for PhD program, partnership, volunteer job, please contact us.</p>
                     <ul>
                         <li>
                             <svg><use href="#icon-envelope-open"></use></svg>

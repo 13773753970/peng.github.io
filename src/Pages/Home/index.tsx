@@ -14,18 +14,14 @@ type Props = {
 function HomePage(props: Props) {
     const descriptionRef = useRef<HTMLDivElement | null>(null)
     const projectsRef = useRef<HTMLDivElement | null>(null)
-    const professorsRef = useRef<HTMLDivElement | null>(null)
-    const postdoctorsRef = useRef<HTMLDivElement | null>(null)
-    // const studentsRef = useRef<HTMLDivElement | null>(null)
+    const teamRef = useRef<HTMLDivElement | null>(null)
     const contactUsRef = useRef<HTMLDivElement | null>(null)
     return (
         <>
             <Header regions={[
                 {title: 'About us', domRef: descriptionRef},
                 {title: 'Projects', domRef: projectsRef},
-                {title: 'Our team', domRef: professorsRef},
-                {title: 'Postdoctors', domRef: postdoctorsRef},
-                // {title: 'Students', domRef: studentsRef},
+                {title: 'Our team', domRef: teamRef},
                 {title: 'contact', domRef: contactUsRef}
             ]}/>
             <Description forwardRef={descriptionRef}
@@ -38,9 +34,10 @@ function HomePage(props: Props) {
                 }
             />
             <Projects forwardRef={projectsRef}/>
-            <Professors forwardRef={professorsRef}/>
-            <PostdoctoralResearchers forwardRef={postdoctorsRef}/>
-            {/* <Students forwardRef={studentsRef}/> */}
+            <div ref={ref => teamRef.current = ref}>
+                <Professors/>
+                <PostdoctoralResearchers/>
+            </div>
             <ContactUs forwardRef={contactUsRef}/>
         </>
     )

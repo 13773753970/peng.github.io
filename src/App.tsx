@@ -6,6 +6,7 @@ import HomePage from './Pages/Home'
 import ProjectPage from './Pages/Project'
 import ProfilePage from './Pages/Profile'
 import {eventEmitter, getWidthScope, WidthScope} from './helper'
+import Page404 from './Pages/404'
 
 function App() {
     useEffect(() => {
@@ -40,6 +41,7 @@ function App() {
             <Route path="/" element={<HomePage/>}/>
             <Route path='/projects/:projectLink' element={<ProjectPage/>}/>
             <Route path="/people/:id" element={<ProfilePage/>}/>
+            <Route path="*" element={<Page404/>}/>
         </Routes>
     )
 }
