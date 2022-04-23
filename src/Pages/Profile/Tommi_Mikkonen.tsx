@@ -31,7 +31,7 @@ function Tommi_Mikkonen(props: Props) {
                         </div>
                         {/* brief introduction */}
                         <p>
-                            More detail information could be accessed at <a target='_blank' rel="noreferrer" href='https://www.jyu.fi/it/fi/tiedekunta/henkilosto/henkilosto/mikkonen-tommi'>my personal website</a>. 
+                            {/* More detail information could be accessed at <a target='_blank' rel="noreferrer" href='https://www.jyu.fi/it/fi/tiedekunta/henkilosto/henkilosto/mikkonen-tommi'>my personal website</a>.  */}
                         </p>
                         {/* Information */}
                         <div className="row">

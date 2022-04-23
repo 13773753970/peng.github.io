@@ -43,7 +43,6 @@ function Peng_Liang(props: Props) {
                             </div>
                             <div className="col-6">
                                 <h3>Email: liangp@whu.edu.cn</h3>
-                                <h3>Phone: +31-50-363-7480</h3>
                             </div>
                         </div>
                     </div>
@@ -55,12 +54,12 @@ function Peng_Liang(props: Props) {
                     </div>
                     <div className='col-9'>
                         <ul>
-                            <li>Architectural knowledge</li>
-                            <li>Requirements engineering</li>
-                            <li>Technical debt</li>
-                            <li>Ontology applications</li>
-                            <li>Software interoperability</li>
-                            <li>Software modeling</li>
+                            <li>Architectural Knowledge</li>
+                            <li>Requirements Engineering</li>
+                            <li>Technical Debt</li>
+                            <li>Ontology Applications</li>
+                            <li>Software Interoperability</li>
+                            <li>Software Modeling</li>
                         </ul>
                     </div>
                 </div>

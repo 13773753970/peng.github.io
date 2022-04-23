@@ -46,9 +46,6 @@ function Pekka_Abrahamsson(props: Props) {
                         Abrahamsson was awarded the Nokia Foundation Award in 2007. In the same year, his large international European research project was also awarded the ITEA-Achievement Award. 
                         He is the co-founder of the Software Startup Research Network (SSRN) and a seasoned expert in leading large research projects.
                         </p>
-                        <p>
-                            More detail information could be accessed at <a target='_blank' rel="noreferrer" href='https://www.jyu.fi/it/fi/tiedekunta/henkilosto/henkilosto/abrahamsson-pekka'>my personal website</a>. 
-                        </p>
                         {/* Information */}
                         <div className="row">
                             <div className="col-6">
