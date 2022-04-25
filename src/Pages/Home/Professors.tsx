@@ -22,7 +22,7 @@ function Professors(props: Props) {
                 props.forwardRef.current = ref
             }
         }} className='container container-padding' id="professors-container">
-            <h2>Our team</h2>
+            <h2>Our Team</h2>
             {professorsData.map((row, index) => (
                 <React.Fragment key={index.toString()}>
                     <div className='row row-expand-10'>
