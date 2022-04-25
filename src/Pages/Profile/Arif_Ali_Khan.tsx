@@ -55,9 +55,9 @@ function Arif_Ali_Khan(props: Props) {
                             and an MSc degree in information technology from <a href='https://www.utp.edu.my/Pages/Home.aspx'>Universiti Teknologi PETRONAS, Malaysia</a>. 
                             He obtained a PhD degree in software engineering from <a href='https://www.cs.cityu.edu.hk/'>the Department of Computer Science</a>, <a href='https://www.cityu.edu.hk/'>City University of Hong Kong</a>. 
                             He has participated in and managed several empirical software engineering-related research projects. 
-                            Khan has expertise in software process improvement, global software development, multi-criteria decision analysis, DevOps, microservices architecture, AI ethics, agile software development, requirements change management, soft computing, and evidence-based software engineering. 
+                            Khan has expertise in software process improvement, global software development, multi-criteria decision analysis, DevOps, quantum software architecture, microservices architecture, AI ethics, agile software development, requirements change management, soft computing, and evidence-based software engineering. 
                             He is professionally active in conducting publication-based research workshops, serving as guest editor in main track software engineering journals, and editing software engineering research books. 
-                            He has published over 60 articles in peer-reviewed software engineering conferences and journals.
+                            He has published over 80 articles in peer-reviewed software engineering conferences and journals.
                         </p>
                         {/* Information */}
                         <div className="row">
@@ -82,6 +82,7 @@ function Arif_Ali_Khan(props: Props) {
                         <div className='row'>
                             <div className='col-6'>
                                 <ul>
+                                    <li>Quantum Software Architecture</li>
                                     <li>Software Process Improvement</li>
                                     <li>Global Software Development</li>
                                     <li>Multi-criteria Decision Analysis</li>

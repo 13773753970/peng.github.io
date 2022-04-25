@@ -73,7 +73,7 @@ function Aakash_Ahmad(props: Props) {
                 {/* PUBLICATIONS */}
                 <div ref={ref => publicationsRef.current = ref} className='row section'>
                     <div className='col-3'>
-                        <h2>SELECTED PUBLICATIONS <br></br> MORE ON <a href='https://dblp.uni-trier.de/pid/09/9384.html'>DBLP</a> AND <br></br> <a href='https://scholar.google.dk/citations?user=nWtJYoIAAAAJ'>GOOGLE SCHOLAR</a></h2>
+                        <h2>PUBLICATIONS</h2>
                     </div>
                     <div className='col-9'>
                         <h4>2022:</h4>

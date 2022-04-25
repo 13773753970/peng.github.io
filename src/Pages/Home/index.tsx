@@ -21,7 +21,7 @@ function HomePage(props: Props) {
             <Header regions={[
                 {title: 'About us', domRef: descriptionRef},
                 {title: 'Projects', domRef: projectsRef},
-                {title: 'Our team', domRef: teamRef},
+                {title: 'Our Team', domRef: teamRef},
                 {title: 'contact', domRef: contactUsRef}
             ]}/>
             <Description forwardRef={descriptionRef}
