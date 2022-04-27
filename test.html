@@ -16,8 +16,8 @@
     <script>
         function createMeta(property, content) {
             var oMeta = document.createElement('meta');
-            oMeta.property = property
-            oMeta.content = content
+            oMeta.setAttribute('property', property)
+            oMeta.setAttribute('content', content)
             document.getElementsByTagName('head')[0].appendChild(oMeta)
         }
         createMeta('og:url', 'aaaaaaa')
