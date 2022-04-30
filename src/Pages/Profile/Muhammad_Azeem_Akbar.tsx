@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import ShareBox from '../../Components/Box/ShareBox'
 import './index.css'
 
 type Props = {
@@ -31,6 +32,7 @@ function Muhammad_Azeem_Akbar(props: Props) {
                             <h1>Muhammad Azeem Akbar</h1>
                             <span className='logocolor'>Ph.D.</span>
                         </div>
+                        <ShareBox text='Muhammad Azeem Akbar - Digital Transformation Lab | Ph.D.' href='https://digital-transformation-lab.github.io/share/people/Muhammad-Azeem-Akbar'/>
                         {/* brief introduction */}
                         <p>
                             MUHAMMAD AZEEM AKBAR obtained PhD <a href='http://www.cs.cqu.edu.cn/'>Software Engineering</a> at <a href='https://www.cqu.edu.cn/'>Chongqing University, China</a> in January-2019. 

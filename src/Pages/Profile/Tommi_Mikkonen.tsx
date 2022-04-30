@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import ShareBox from '../../Components/Box/ShareBox'
 import './index.css'
 
 type Props = {
@@ -29,6 +30,7 @@ function Tommi_Mikkonen(props: Props) {
                             <h1>Tommi Mikkonen</h1>
                             <span className='logocolor'>Professor of Software Engineering</span>
                         </div>
+                        <ShareBox text='Tommi Mikkonen - Digital Transformation Lab | Professor of Software Engineering' href='https://digital-transformation-lab.github.io/share/people/Tommi-Mikkonen'/>
                         {/* brief introduction */}
                         <p>
                             {/* More detail information could be accessed at <a target='_blank' rel="noreferrer" href='https://www.jyu.fi/it/fi/tiedekunta/henkilosto/henkilosto/mikkonen-tommi'>my personal website</a>.  */}

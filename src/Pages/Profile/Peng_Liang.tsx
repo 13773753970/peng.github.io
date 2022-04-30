@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import ShareBox from '../../Components/Box/ShareBox'
 import './index.css'
 
 type Props = {
@@ -31,6 +32,7 @@ function Peng_Liang(props: Props) {
                             <h1>Peng Liang</h1>
                             <span className='logocolor'>Professor</span>
                         </div>
+                        <ShareBox text='Peng Liang - Digital Transformation Lab | Professor' href='https://digital-transformation-lab.github.io/share/people/Peng-Liang'/>
                         {/* brief introduction */}
                         <p>
                             More detail information could be accessed at <a target='_blank' rel="noreferrer" href='https://www.cs.rug.nl/search/People/PengLiang'>my personal website</a>. 
