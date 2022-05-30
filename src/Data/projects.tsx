@@ -11,6 +11,20 @@ const projects = [
         </>,
         studies: [
             {
+                title: 'Towards Process Centered Architecting for Quantum Software Systems',
+                link: 'https://www.researchgate.net/publication/360860763_Towards_Process_Centered_Architecting_for_Quantum_Software_Systems',
+                type: 'Conference Paper',
+                date: 'May 2022',
+                authors: [
+                    {name: 'Aakash Ahmad', portrait: require('../Images/Aakash-Ahmad-portrait.jpeg')},
+                    {name: 'Arif Ali Khan', portrait: require('../Images/Arif-Ali-Khan-portrait.jpeg')},
+                    {name: 'Muhammad Waseem', portrait: require('../Images/Muhammad-Waseem-portrait.jpeg')},
+                    {name: 'Mahdi Fahmideh', portrait: require('../Images/Mahdi-Fahmideh-portrait.jpeg')},
+                    {name: 'Tommi Mikkonen', },
+                ],
+                abstract: 'Quantum Software Engineering (QSE) is a recent trend-focused on unifying the principles of quantum mechanics and practices of software engineering-to design, develop, validate , and evolve quantum age software systems and applications. Software architecture for quantum computing (a.k.a. quantum software architectures (QSA)) supports the design, development, and maintenance etc. phases of quantum software systems using architectural components and connectors. QSA as a new genre of software architecture is used to design and implement quantum software, however, lack of process support for QSAs hinders any systematic and incremental development of architecture-centric solutions. Process-centered architecting is vital to enable quantum software designers and developers to map the operations of Qubits to architectural components and connectors in an incremental and systematic way. This research aims to explore the role of QSAs by investigating (i) architectural process having architecting activities, and (ii) human roles that can exploit available tools to automate and customise architecture-centric development. We have used the systematic review approach to identify a total of 589 published studies (e.g., investigating reference architectures and architectural solutions) and qualitatively selected 32 of them. Based on a review of 32 studies, we identified 05 architecting activities to derive QSA process, analysed 11 available tool prototypes, and 4 human roles that enable or enrich process-centered architecting of quantum software. Case study based approach demonstrates the architectural process to design a quantum key distribution solution. This research streamlines the role of software architectures and aims to facilitate knowledge transfer-enabling researchers and practitioners to address challenges related to quantum age software architectures.'
+            },
+            {
                 title: 'Software Architecture for Quantum Computing Systems - A Systematic Review',
                 link: 'https://arxiv.org/abs/2202.05505',
                 type: 'Preprint',
@@ -43,8 +57,10 @@ const projects = [
                 title: 'Ethics of AI: A Systematic Literature Review of Principles and Challenges',
                 link: 'https://arxiv.org/abs/2109.07906',
                 type: 'Preprint',
-                date: 'Sep 2021',
+                date: 'September 2021',
                 authors: [
+                    {name: 'Mahdi Fahmideh', portrait: require('../Images/Mahdi-Fahmideh-portrait.jpeg')},
+                    {name: 'Aakash Ahmad', portrait: require('../Images/Aakash-Ahmad-portrait.jpeg')},
                     {name: 'Arif Ali Khan', portrait: require('../Images/Arif-Ali-Khan-portrait.jpeg')},
                     {name: 'Sher Badshah', },
                     {name: 'Peng Liang', portrait: require('../Images/Peng-Liang-portrait.jpeg')},
