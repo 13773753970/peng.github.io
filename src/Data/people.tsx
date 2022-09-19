@@ -17,20 +17,20 @@ export enum Title {
 
 const people = [
     {
-        id: 'Pekka-Abrahamsson',
-        name: 'Pekka Abrahamsson',
-        title: Title.Professor,
-        position: 'Professor',
-        image: require('../Images/Pekka-Abrahamsson-profile.jpeg'),
-        profile: Pekka_Abrahamsson
-    },
-    {
         id: 'Arif-Ali-Khan',
         name: 'Arif Ali Khan',
         title: Title.Professor,
         position: 'Assistant Professor',
         image: require('../Images/Arif-Ali-Khan-profile.jpeg'),
         profile: Arif_Ali_Khan
+    },
+    {
+        id: 'Pekka-Abrahamsson',
+        name: 'Pekka Abrahamsson',
+        title: Title.Professor,
+        position: 'Professor',
+        image: require('../Images/Pekka-Abrahamsson-profile.jpeg'),
+        profile: Pekka_Abrahamsson
     },
     {
         id: 'Mahdi-Fahmideh',

@@ -11,6 +11,34 @@ const projects = [
         </>,
         studies: [
             {
+                title: 'Embracing Iterations in Quantum Software: A Vision',
+                link: 'https://www.researchgate.net/publication/363371962_Embracing_Iterations_in_Quantum_Software_A_Vision',
+                type: 'Conference Paper',
+                date: 'September 2022',
+                authors: [
+                    {name: 'Arif Ali Khan', portrait: require('../Images/Arif-Ali-Khan-portrait.jpeg')},
+                    {name: 'Mahdi Fahmideh', portrait: require('../Images/Mahdi-Fahmideh-portrait.jpeg')},
+                    {name: 'Aakash Ahmad', portrait: require('../Images/Aakash-Ahmad-portrait.jpeg')},
+                    {name: 'Muhammad Waseem', portrait: require('../Images/Muhammad-Waseem-portrait.jpeg')},
+                    {name: 'Mahmood Niazi', },
+                    {name: 'Valtteri Lahtinen', },
+                    {name: 'Tommi Mikkonen', },
+                ],
+                abstract: `In today's software engineering, iterations, affordable en masse, form an important part of just about any system. However, not all computing resources are cheap to consume. In High-Performance (HPC) and Quantum Computing (QC), executions can consume considerable amounts of energy and time, which is reserved and used even if the very first steps in the process fail. This means that developers must assume a different attitude towards programming, and aim at error-free software before its execution. This is commonly facilitated using simulators, which are commonplace for both HPC and QC. However the fashion developers advance from one tool to another is ad-hoc, with no established software engineering guidelines, and the final step from simulators to HPC/QC is still a leap of faith, comparable to releasing software. In this paper, we propose a vision where developers can iterate in an agile fashion when developing quantum software. The iterations are defined such that when the solution is still vague in the beginning, computations are interactive and provide instant feedback, thus supporting conceptualization of the software and experimenting with new ideas. When the solution becomes more precise, more expensive computations such as quantum algorithm and hyperparameter optimization are executed in batches.`
+            },
+            {
+                title: 'Classical to Quantum Software Migration Journey Begins: A Conceptual Readiness Model',
+                link: 'https://arxiv.org/abs/2209.05105',
+                type: 'Preprint',
+                date: 'September 2022',
+                authors: [
+                    {name: 'Muhammad Azeem Akbar', portrait: require('../Images/Muhammad-Azeem-Akbar-portrait.jpeg')},
+                    {name: 'Saima Rafi', },
+                    {name: 'Arif Ali Khan', portrait: require('../Images/Arif-Ali-Khan-portrait.jpeg')},
+                ],
+                abstract: `With recent advances in the development of more powerful quantum computers, the re-search area of quantum software engineering is emerging. Quantum software plays a critical role in exploiting the full potential of quantum computing systems. As a result, it has been drawing increasing attention recently to provide concepts, principles, and guidelines to address the ongoing challenges of quantum software development. The importance of the topic motivated us to voice out a call for action to develop a readiness model that will help an organization assess its capability of migration from classic software engineering to quan-tum software engineering. The proposed model will be based on the existing multivocal literature, industrial empirical study, understanding of the process areas, challenging factors and enablers that could impact the quantum software engineering process. We believe that the proposed model will provide a roadmap for software development organizations to measure their readiness concerning to transformation from classic to quantum software engineering by suggesting best practices and highlighting important process areas, challeng-es, and enablers.`
+            },
+            {
                 title: 'Towards Process Centered Architecting for Quantum Software Systems',
                 link: 'https://www.researchgate.net/publication/360860763_Towards_Process_Centered_Architecting_for_Quantum_Software_Systems',
                 type: 'Conference Paper',
@@ -53,6 +81,23 @@ const projects = [
             <p>The promises of AI systems like improving productivity, reducing costs, and safety have now been considered with worries that <span className="logocolor">these complex systems might bring more ethical harm than economical good.</span> This project aims to explore AI ethics in different contexts and propose tools and methods that could be used to consider <span className="logocolor">ethics in AI application development processes.</span> </p>
         </>,
         studies: [
+            {
+                title: `AI Ethics: Software Practitioners' and Lawmakers' Points of View`,
+                link: 'https://www.researchgate.net/publication/361757192_AI_Ethics_Software_Practitioners%27_and_Lawmakers%27_Points_of_View',
+                type: 'Preprint',
+                date: 'July 2022',
+                authors: [
+                    {name: 'Arif Ali Khan', portrait: require('../Images/Arif-Ali-Khan-portrait.jpeg')},
+                    {name: 'Muhammad Azeem Akbar', portrait: require('../Images/Muhammad-Azeem-Akbar-portrait.jpeg')},
+                    {name: 'Muhammad Waseem', portrait: require('../Images/Muhammad-Waseem-portrait.jpeg')},
+                    {name: 'Mahdi Fahmideh', portrait: require('../Images/Mahdi-Fahmideh-portrait.jpeg')},
+                    {name: 'Aakash Ahmad', portrait: require('../Images/Aakash-Ahmad-portrait.jpeg')},
+                    {name: 'Peng Liang', portrait: require('../Images/Peng-Liang-portrait.jpeg')},
+                    {name: 'Mahmood Niazi', },
+                    {name: 'Pekka Abrahamsson', portrait: require('../Images/Pekka-Abrahamsson-portrait.jpeg')},
+                ],
+                abstract: `Despite their commonly accepted usefulness, Artificial Intelligence (AI) technologies are concerned with ethical unreliability. Various guidelines, principles, and regulatory frameworks are designed to ensure that AI technologies bring ethical well-being. However, the implications of AI ethics principles and guidelines are still being debated. To further explore the significance of AI ethics principles and relevant challenges, we conducted an empirical survey of 99 AI practitioners and lawmakers from twenty countries across five continents. Study findings confirm that transparency, accountability, and privacy are the most critical AI ethics principles. On the other hand, lack of ethical knowledge, no legal frameworks, and lacking monitoring bodies are found the most common AI ethics challenges. The impact analysis of the challenges across AI ethics principles reveals that conflict in practice is a highly severe challenge. Our findings stimulate further 1 arXiv:2207.01493v1 [cs.CY] 30 Jun 2022 research, epically empowering existing capability maturity models to support the quality assessment of ethics-aware AI systems.`
+            },
             {
                 title: 'Ethics of AI: A Systematic Literature Review of Principles and Challenges',
                 link: 'https://arxiv.org/abs/2109.07906',
